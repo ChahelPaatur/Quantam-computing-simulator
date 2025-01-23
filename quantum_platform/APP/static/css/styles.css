@@ -1,0 +1,26 @@
+:root {
+    --primary-black: #0a0a0a;
+    --primary-white: #ffffff;
+    --quantum-yellow: #ffd700;
+    --dark-yellow: #b29700;
+}
+
+body {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: var(--quantum-yellow);
+}
+
+.quantum-btn {
+    background-color: var(--quantum-yellow);
+    color: var(--primary-black);
+    transition: all 0.3s ease;
+}
+
+.quantum-btn:hover {
+    background-color: var(--dark-yellow);
+}
