@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
 from flask_login import login_user, logout_user, current_user, login_required
-from app import db
-from app.auth.forms import LoginForm, RegistrationForm
-from app.models import User
+from quantum_app import db
+from quantum_app.auth.forms import LoginForm, RegistrationForm
+from quantum_app.models import User
 
 auth_bp = Blueprint('auth', __name__)
 

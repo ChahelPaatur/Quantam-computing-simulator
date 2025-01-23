@@ -24,3 +24,19 @@ body {
 .quantum-btn:hover {
     background-color: var(--dark-yellow);
 }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header nav a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
