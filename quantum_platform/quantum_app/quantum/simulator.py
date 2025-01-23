@@ -1,3 +1,4 @@
+# app/quantum/simulator.py
 import numpy as np
 
 class QuantumRegister:

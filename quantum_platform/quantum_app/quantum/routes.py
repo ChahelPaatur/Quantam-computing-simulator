@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
 from flask_login import login_required, current_user
-from app.quantum.simulator import QuantumCircuit
-from app.quantum.wave_function import WaveFunction
-from app.models import Simulation
+from quantum_app.quantum.simulator import QuantumCircuit
+from quantum_app.quantum.wave_function import WaveFunction
+from quantum_app.models import Simulation
 
 quantum_bp = Blueprint('quantum', __name__)
 
